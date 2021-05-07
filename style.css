@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #f8f6f6;
+}
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5%;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+nav h1 span {
+  color: #6d6dfc;
+}
+nav form button {
+  background-color: #6d6dfc;
+  color: #fff;
+}
+nav h2 {
+  color: orangered;
+}
+nav #So {
+  color: black;
+  font-weight: lighter;
+}
+#so-metric {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+#so-metric aside {
+  background-color: #fff;
+  margin-top: 5%;
+  height: 100%;
+}
+#so-metric aside h4 {
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: large;
+}
+#so-metric aside h5 {
+  margin-left: 17%;
+  color: #888;
+}
+#so-metric aside p {
+  margin-left: 10%;
+  margin-top: 40%;
+  color: #888;
+}
+#so-metric .ticket h2 {
+  margin-left: 5%;
+  margin-bottom: 10px;
+}
+#so-metric .ticket #summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #fff;
+  height: 75%;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#so-metric .ticket #summary .fab-f {
+  display: flex;
+  margin: 5% 5%;
+}
+#so-metric .ticket #summary .fab-f #fa-f {
+  margin-top: 5px;
+  margin-right: 5%;
+  color: #888;
+  width: 30px;
+  height: 30px;
+  padding: 10px 10px;
+  border-radius: 50%;
+  background-color: #f7efef;
+}
+#all-ticket {
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+#all-ticket aside #fas {
+  margin: 10%;
+  color: blue;
+}
+#all-ticket aside .contents {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+#all-ticket aside .contents > a {
+  display: inline-block;
+  width: 100%;
+  margin-top: 15%;
+  margin-left: 10%;
+  text-decoration: none;
+  color: #888;
+}
+#all-ticket aside .contents a #hundred {
+  background-color: #888;
+  color: white;
+  border-radius: 50px;
+  padding: 5px 5px;
+}
+#all-ticket .filter .subject {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #fff;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+#all-ticket .filter .subject p /*:not(:first-child)*/ {
+  margin: 0px 30px;
+}
+#all-ticket .filter .subject #auto {
+  margin-left: auto;
+}
+#all-ticket .filter #flex {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+#all-ticket .filter #flex #date {
+  margin-left: auto;
+  margin-right: 6%;
+}
+#all-ticket .filter #flex #apply {
+  background-color: #fff;
+  color: #6d6dfc;
+  padding: 5px 5px;
+}
+#all-ticket .filter .twitter {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+  margin-left: 5%;
+  background-color: #fff;
+}
+
+#all-ticket .filter .twitter p {
+  margin: 10px 30px;
+  color: #888;
+}
+#all-ticket .filter .twitter #open {
+  margin-left: auto;
+  margin-right: 5%;
+}
+#all-ticket .filter .twitter p:nth-child(5) {
+  margin-right: 8%;
+}
+/* #all-ticket .filter .twitter #tweet {
+  margin-left: -2%;
+} */
+#all-ticket .filter .twitter #tweet span {
+  margin-left: 37%;
+  background-color: orangered;
+  border-radius: 50px;
+  color: #f7efef;
+  padding: 2px 2px;
+}
+#all-ticket .filter .twitter #tweet i {
+  color: #fff;
+  background-color: dodgerblue;
+}
+#all-ticket .filter .facebook {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+  margin-left: 5%;
+  background-color: #fff;
+}
+#all-ticket .filter .facebook p {
+  margin: 10px 30px;
+}
+#all-ticket .filter .facebook p:nth-child(4) {
+  margin-left: auto;
+}
+
+#all-ticket .filter .facebook #facebook-post i {
+  background-color: #2525c4;
+  color: #fff;
+}
+#all-ticket .filter .facebook p span {
+  color: dodgerblue;
+}
+#think {
+  background-color: #6d6dfc;
+  color: #fff;
+  border-radius: 50%;
+}
